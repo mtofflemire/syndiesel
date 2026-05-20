@@ -1,0 +1,6 @@
+*
+!scripts/
+!scripts/**
+!results/
+!results/**
+!.gitignore

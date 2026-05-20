@@ -1,0 +1,522 @@
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/yaml/model_species1.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Simulating ancestry
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=39063.2 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=39063.2 nodes=39 edges=38
+INFO:root:Ancestry simulation complete
+INFO:root:Number of mutations: 1
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species1.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species1_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species1.vcf
+INFO:root:Number of samples: 20, Number of variants: 1
+DEBUG:root:Processing variant at position 33: ref=C, alt=T
+DEBUG:root:Sample tsk_0 genotype at position 33: [ 1 -1]
+DEBUG:root:Sample tsk_1 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 33: [ 1 -1]
+DEBUG:root:Sample tsk_15 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 33: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 33: [ 0 -1]
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species1.nex
+INFO:root:Completed all steps for model_species1.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/yaml/model_species2.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Simulating ancestry
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=50173.1 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=50173.1 nodes=39 edges=38
+INFO:root:Ancestry simulation complete
+INFO:root:Number of mutations: 1
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species2.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species2_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species2.vcf
+INFO:root:Number of samples: 20, Number of variants: 1
+DEBUG:root:Processing variant at position 13: ref=C, alt=T
+DEBUG:root:Sample tsk_0 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 13: [ 1 -1]
+DEBUG:root:Sample tsk_3 genotype at position 13: [ 1 -1]
+DEBUG:root:Sample tsk_4 genotype at position 13: [ 1 -1]
+DEBUG:root:Sample tsk_5 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 13: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 13: [ 0 -1]
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species2.nex
+INFO:root:Completed all steps for model_species2.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/yaml/model_species3.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Simulating ancestry
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=70444.3 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=70444.3 nodes=39 edges=38
+INFO:root:Ancestry simulation complete
+INFO:root:Number of mutations: 4
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species3.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species3_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species3.vcf
+INFO:root:Number of samples: 20, Number of variants: 4
+DEBUG:root:Processing variant at position 393: ref=G, alt=A
+DEBUG:root:Sample tsk_0 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 393: [ 1 -1]
+DEBUG:root:Sample tsk_3 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 393: [ 1 -1]
+DEBUG:root:Sample tsk_7 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 393: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 393: [ 1 -1]
+DEBUG:root:Processing variant at position 692: ref=C, alt=G
+DEBUG:root:Sample tsk_0 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 692: [ 1 -1]
+DEBUG:root:Sample tsk_2 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 692: [ 1 -1]
+DEBUG:root:Sample tsk_4 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 692: [ 1 -1]
+DEBUG:root:Sample tsk_6 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 692: [ 1 -1]
+DEBUG:root:Sample tsk_10 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 692: [ 1 -1]
+DEBUG:root:Sample tsk_14 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 692: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 692: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 692: [ 0 -1]
+DEBUG:root:Processing variant at position 748: ref=T, alt=G
+DEBUG:root:Sample tsk_0 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 748: [ 1 -1]
+DEBUG:root:Sample tsk_3 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 748: [ 1 -1]
+DEBUG:root:Sample tsk_7 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 748: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 748: [ 1 -1]
+DEBUG:root:Processing variant at position 947: ref=C, alt=A
+DEBUG:root:Sample tsk_0 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 947: [ 1 -1]
+DEBUG:root:Sample tsk_4 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 947: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 947: [ 0 -1]
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species3.nex
+INFO:root:Completed all steps for model_species3.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/yaml/model_species4.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Simulating ancestry
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=92129.1 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=92129.1 nodes=39 edges=38
+INFO:root:Ancestry simulation complete
+INFO:root:Number of mutations: 3
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species4.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species4_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species4.vcf
+INFO:root:Number of samples: 20, Number of variants: 3
+DEBUG:root:Processing variant at position 159: ref=T, alt=C
+DEBUG:root:Sample tsk_0 genotype at position 159: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_2 genotype at position 159: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 159: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_5 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_6 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_7 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_8 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_9 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_10 genotype at position 159: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 159: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_13 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_14 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_15 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_16 genotype at position 159: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_18 genotype at position 159: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 159: [ 0 -1]
+DEBUG:root:Processing variant at position 446: ref=G, alt=A
+DEBUG:root:Sample tsk_0 genotype at position 446: [ 1 -1]
+DEBUG:root:Sample tsk_1 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 446: [ 1 -1]
+DEBUG:root:Sample tsk_3 genotype at position 446: [ 1 -1]
+DEBUG:root:Sample tsk_4 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 446: [ 1 -1]
+DEBUG:root:Sample tsk_11 genotype at position 446: [ 1 -1]
+DEBUG:root:Sample tsk_12 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 446: [ 1 -1]
+DEBUG:root:Sample tsk_17 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 446: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 446: [ 1 -1]
+DEBUG:root:Processing variant at position 980: ref=A, alt=G
+DEBUG:root:Sample tsk_0 genotype at position 980: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_2 genotype at position 980: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 980: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_5 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_6 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_7 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_8 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_9 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_10 genotype at position 980: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 980: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_13 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_14 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_15 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_16 genotype at position 980: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_18 genotype at position 980: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 980: [ 0 -1]
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species4.nex
+INFO:root:Completed all steps for model_species4.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/yaml/model_species5.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Simulating ancestry
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=27525.1 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=27525.1 nodes=39 edges=38
+INFO:root:Ancestry simulation complete
+INFO:root:Number of mutations: 5
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species5.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species5_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species5.vcf
+INFO:root:Number of samples: 20, Number of variants: 5
+DEBUG:root:Processing variant at position 40: ref=G, alt=T
+DEBUG:root:Sample tsk_0 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 40: [ 1 -1]
+DEBUG:root:Sample tsk_9 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 40: [ 1 -1]
+DEBUG:root:Sample tsk_12 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 40: [ 1 -1]
+DEBUG:root:Sample tsk_14 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 40: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 40: [ 1 -1]
+DEBUG:root:Sample tsk_18 genotype at position 40: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 40: [ 1 -1]
+DEBUG:root:Processing variant at position 273: ref=G, alt=C
+DEBUG:root:Sample tsk_0 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 273: [ 1 -1]
+DEBUG:root:Sample tsk_9 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 273: [ 1 -1]
+DEBUG:root:Sample tsk_12 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 273: [ 1 -1]
+DEBUG:root:Sample tsk_14 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 273: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 273: [ 1 -1]
+DEBUG:root:Sample tsk_18 genotype at position 273: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 273: [ 1 -1]
+DEBUG:root:Processing variant at position 562: ref=T, alt=G
+DEBUG:root:Sample tsk_0 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 562: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 562: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 562: [ 0 -1]
+DEBUG:root:Processing variant at position 669: ref=C, alt=A
+DEBUG:root:Sample tsk_0 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 669: [ 1 -1]
+DEBUG:root:Sample tsk_9 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 669: [ 1 -1]
+DEBUG:root:Sample tsk_12 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 669: [ 1 -1]
+DEBUG:root:Sample tsk_14 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 669: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 669: [ 1 -1]
+DEBUG:root:Sample tsk_18 genotype at position 669: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 669: [ 1 -1]
+DEBUG:root:Processing variant at position 896: ref=A, alt=T
+DEBUG:root:Sample tsk_0 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 896: [ 1 -1]
+DEBUG:root:Sample tsk_6 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 896: [ 1 -1]
+DEBUG:root:Sample tsk_8 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 896: [ 1 -1]
+DEBUG:root:Sample tsk_10 genotype at position 896: [ 1 -1]
+DEBUG:root:Sample tsk_11 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 896: [ 1 -1]
+DEBUG:root:Sample tsk_13 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 896: [ 1 -1]
+DEBUG:root:Sample tsk_16 genotype at position 896: [ 1 -1]
+DEBUG:root:Sample tsk_17 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 896: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 896: [ 0 -1]
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species5.nex
+INFO:root:Completed all steps for model_species5.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/yaml/model_species6.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Simulating ancestry
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=55493.9 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=55493.9 nodes=39 edges=38
+INFO:root:Ancestry simulation complete
+INFO:root:Number of mutations: 4
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species6.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species6_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species6.vcf
+INFO:root:Number of samples: 20, Number of variants: 4
+DEBUG:root:Processing variant at position 252: ref=T, alt=G
+DEBUG:root:Sample tsk_0 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 252: [ 1 -1]
+DEBUG:root:Sample tsk_8 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 252: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 252: [ 0 -1]
+DEBUG:root:Processing variant at position 743: ref=G, alt=A
+DEBUG:root:Sample tsk_0 genotype at position 743: [ 1 -1]
+DEBUG:root:Sample tsk_1 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 743: [ 1 -1]
+DEBUG:root:Sample tsk_3 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 743: [ 1 -1]
+DEBUG:root:Sample tsk_5 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 743: [ 1 -1]
+DEBUG:root:Sample tsk_8 genotype at position 743: [ 1 -1]
+DEBUG:root:Sample tsk_9 genotype at position 743: [ 1 -1]
+DEBUG:root:Sample tsk_10 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 743: [ 1 -1]
+DEBUG:root:Sample tsk_17 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 743: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 743: [ 0 -1]
+DEBUG:root:Processing variant at position 761: ref=T, alt=C
+DEBUG:root:Sample tsk_0 genotype at position 761: [ 1 -1]
+DEBUG:root:Sample tsk_1 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_2 genotype at position 761: [ 1 -1]
+DEBUG:root:Sample tsk_3 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_4 genotype at position 761: [ 1 -1]
+DEBUG:root:Sample tsk_5 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_6 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_7 genotype at position 761: [ 1 -1]
+DEBUG:root:Sample tsk_8 genotype at position 761: [ 1 -1]
+DEBUG:root:Sample tsk_9 genotype at position 761: [ 1 -1]
+DEBUG:root:Sample tsk_10 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_11 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_12 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_13 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_14 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_15 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_16 genotype at position 761: [ 1 -1]
+DEBUG:root:Sample tsk_17 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_18 genotype at position 761: [ 0 -1]
+DEBUG:root:Sample tsk_19 genotype at position 761: [ 0 -1]
+DEBUG:root:Processing variant at position 915: ref=T, alt=G
+DEBUG:root:Sample tsk_0 genotype at position 915: [ 0 -1]
+DEBUG:root:Sample tsk_1 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_2 genotype at position 915: [ 0 -1]
+DEBUG:root:Sample tsk_3 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_4 genotype at position 915: [ 0 -1]
+DEBUG:root:Sample tsk_5 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_6 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_7 genotype at position 915: [ 0 -1]
+DEBUG:root:Sample tsk_8 genotype at position 915: [ 0 -1]
+DEBUG:root:Sample tsk_9 genotype at position 915: [ 0 -1]
+DEBUG:root:Sample tsk_10 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_11 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_12 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_13 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_14 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_15 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_16 genotype at position 915: [ 0 -1]
+DEBUG:root:Sample tsk_17 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_18 genotype at position 915: [ 1 -1]
+DEBUG:root:Sample tsk_19 genotype at position 915: [ 1 -1]
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species6.nex
+INFO:root:Completed all steps for model_species6.yaml
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species1.vcf to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species1.vcf
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species1_genealogy.svg to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species1_genealogy.svg
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species1.nex to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species1.nex
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species2.vcf to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species2.vcf
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species2_genealogy.svg to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species2_genealogy.svg
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species2.nex to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species2.nex
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species3.vcf to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species3.vcf
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species3_genealogy.svg to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species3_genealogy.svg
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species3.nex to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species3.nex
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species4.vcf to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species4.vcf
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species4_genealogy.svg to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species4_genealogy.svg
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species4.nex to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species4.nex
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species5.vcf to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species5.vcf
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species5_genealogy.svg to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species5_genealogy.svg
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species5.nex to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species5.nex
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species6.vcf to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species6.vcf
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species6_genealogy.svg to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species6_genealogy.svg
+INFO:root:Copied /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/output_data_species6.nex to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_40000_10000_0.01_results/run24/output_data_species6.nex
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
