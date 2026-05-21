@@ -1,0 +1,169 @@
+INFO:root:Using simulation seed: 599643308
+INFO:root:Using run-specific YAML directory: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml
+INFO:root:Writing outputs directly to run directory: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species1.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 2062645200
+INFO:root:Mutation seed: 2318235290
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=49841.9 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=49841.9 nodes=39 edges=38
+INFO:root:Number of mutations: 1
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species1.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species1_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species1.vcf
+INFO:root:Number of samples: 20, Number of variants: 1
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species1.nex
+INFO:root:Completed all steps for model_species1.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species2.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 4033774626
+INFO:root:Mutation seed: 3492492863
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=35242.7 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=35242.7 nodes=39 edges=38
+INFO:root:Number of mutations: 2
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species2.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species2_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species2.vcf
+INFO:root:Number of samples: 20, Number of variants: 2
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species2.nex
+INFO:root:Completed all steps for model_species2.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species3.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 501770694
+INFO:root:Mutation seed: 2250703669
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=30049.2 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=30049.2 nodes=39 edges=38
+INFO:root:Number of mutations: 3
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species3.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species3_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species3.vcf
+INFO:root:Number of samples: 20, Number of variants: 3
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species3.nex
+INFO:root:Completed all steps for model_species3.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species4.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 1140324695
+INFO:root:Mutation seed: 4176725170
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=24776.8 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=24776.8 nodes=39 edges=38
+INFO:root:Number of mutations: 0
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4.vcf
+ERROR:root:Error converting VCF to Nexus: VCF file does not contain genotype data
+WARNING:root:Retrying simulation for model_species4.yaml due to lack of genotype data.
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species4.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 989188450
+INFO:root:Mutation seed: 372192411
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=27867.9 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=27867.9 nodes=39 edges=38
+INFO:root:Number of mutations: 0
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4.vcf
+ERROR:root:Error converting VCF to Nexus: VCF file does not contain genotype data
+WARNING:root:Retrying simulation for model_species4.yaml due to lack of genotype data.
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species4.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 3075865938
+INFO:root:Mutation seed: 697196431
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=106630 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=106630 nodes=39 edges=38
+INFO:root:Number of mutations: 2
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4.vcf
+INFO:root:Number of samples: 20, Number of variants: 2
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species4.nex
+INFO:root:Completed all steps for model_species4.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species5.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 4184797796
+INFO:root:Mutation seed: 2664397099
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=51385.3 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=51385.3 nodes=39 edges=38
+INFO:root:Number of mutations: 1
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species5.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species5_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species5.vcf
+INFO:root:Number of samples: 20, Number of variants: 1
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species5.nex
+INFO:root:Completed all steps for model_species5.yaml
+INFO:root:Loaded demes model from /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/yaml/model_species6.yaml
+INFO:root:Converted demes model to msprime demography
+INFO:root:Sample sets: [SampleSet(num_samples=10, population='pop1', time=None, ploidy=1), SampleSet(num_samples=10, population='pop2', time=None, ploidy=1)]
+INFO:root:Ancestry seed: 3982760593
+INFO:root:Mutation seed: 407716845
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 1 (name='pop1') at time 0.0
+INFO:msprime.ancestry:Sampling 10 individuals with ploidy 1 in population 2 (name='pop2') at time 0.0
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=20 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+DEBUG:msprime.ancestry:time=137131 ancestors=0 ret=ExitReason.COALESCENCE
+DEBUG:msprime.ancestry:Skipping remaining 0 models
+INFO:msprime.ancestry:Completed at time=137131 nodes=39 edges=38
+INFO:root:Number of mutations: 2
+INFO:root:Simulated data written to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species6.vcf
+INFO:root:Genealogy visualization saved to /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species6_genealogy.svg
+INFO:root:Read VCF file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species6.vcf
+INFO:root:Number of samples: 20, Number of variants: 2
+INFO:root:Written Nexus file: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/results/config_1_0_10000_0_results/run18_seed599643308/output_data_species6.nex
+INFO:root:Completed all steps for model_species6.yaml
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>
+<IPython.core.display.SVG object>

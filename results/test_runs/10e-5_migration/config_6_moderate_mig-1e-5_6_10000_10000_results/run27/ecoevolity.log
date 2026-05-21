@@ -1,0 +1,577 @@
+======================================================================
+                              Ecoevolity
+                  Estimating evolutionary coevality
+      Version 1.0.0 (master 2ed8d6e: 2021-10-14T16:07:03-05:00)
+======================================================================
+
+Seed: 1332768840
+Using data in order to sample from the posterior distribution...
+Config path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/ecoevolity_config.yml
+Parsing config file...
+
+----------------------------------------------------------------------
+---
+event_model_prior:
+    dirichlet_process:
+        parameters:
+            concentration:
+                estimate: true
+                prior:
+                    gamma_distribution:
+                        shape: 2
+                        scale: 3.25049
+event_time_prior:
+    exponential_distribution:
+        rate: 100
+mcmc_settings:
+    chain_length: 100000
+    sample_frequency: 100
+comparisons:
+- comparison:
+    path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species1.nex
+    ploidy: 1
+    genotypes_are_diploid: false
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: true
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                exponential_distribution:
+                    rate: 1000
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 50
+                    scale: 0.02
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species2.nex
+    ploidy: 1
+    genotypes_are_diploid: false
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: true
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                exponential_distribution:
+                    rate: 1000
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 50
+                    scale: 0.02
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species3.nex
+    ploidy: 1
+    genotypes_are_diploid: false
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: true
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                exponential_distribution:
+                    rate: 1000
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 50
+                    scale: 0.02
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species4.nex
+    ploidy: 1
+    genotypes_are_diploid: false
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: true
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                exponential_distribution:
+                    rate: 1000
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 50
+                    scale: 0.02
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species5.nex
+    ploidy: 1
+    genotypes_are_diploid: false
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: true
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                exponential_distribution:
+                    rate: 1000
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 50
+                    scale: 0.02
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species6.nex
+    ploidy: 1
+    genotypes_are_diploid: false
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: true
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                exponential_distribution:
+                    rate: 1000
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 50
+                    scale: 0.02
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.1
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+operator_settings:
+    auto_optimize: true
+    auto_optimize_delay: 1000
+    operators:
+        ModelOperator:
+            weight: 10
+            number_of_auxiliary_categories: 4
+        ConcentrationScaler:
+            weight: 3
+            scale: 1
+        TimeSizeRateMixer:
+            weight: 6
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 1
+            scale: 0.1
+        TimeRootSizeMixer:
+            weight: 6
+            scale: 0.05
+----------------------------------------------------------------------
+
+Configuring model...
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+
+----------------------------------------------------------------------
+Summary of data from 6 comparisons:
+    Summary of data from '/Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species1.nex':
+        Genotypes: haploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1000
+        Number of variable sites: 3
+        Number of patterns: 4
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            PopulationA (10)
+            PopulationB (10)
+    Summary of data from '/Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species2.nex':
+        Genotypes: haploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1000
+        Number of variable sites: 2
+        Number of patterns: 3
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            PopulationC (10)
+            PopulationD (10)
+    Summary of data from '/Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species3.nex':
+        Genotypes: haploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1000
+        Number of variable sites: 3
+        Number of patterns: 4
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            PopulationE (10)
+            PopulationF (10)
+    Summary of data from '/Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species4.nex':
+        Genotypes: haploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1000
+        Number of variable sites: 1
+        Number of patterns: 2
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            PopulationG (10)
+            PopulationH (10)
+    Summary of data from '/Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species5.nex':
+        Genotypes: haploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1000
+        Number of variable sites: 3
+        Number of patterns: 3
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            PopulationI (10)
+            PopulationJ (10)
+    Summary of data from '/Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/./results/output_data_species6.nex':
+        Genotypes: haploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1000
+        Number of variable sites: 3
+        Number of patterns: 3
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            PopulationK (10)
+            PopulationL (10)
+----------------------------------------------------------------------
+
+Number of threads: 1
+Firing up MCMC...
+State log path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_10000_10000_0.00001_results/run27//ecoevolity_config-state-run-1.log
+Operator log path: /Users/michaeltofflemire/Mtofflemire Dropbox/Michael Tofflemire/Projects/syndiesel/scripts/results/config_6_10000_10000_0.00001_results/run27//ecoevolity_config-operator-run-1.log
+generation	ln_likelihood	ln_prior	number_of_events	concentration
+0	-4480.03	90.3361	6	8.33845
+1000	-4364.88	83.3718	1	0.941861
+2000	-4365.15	80.7113	2	4.94648
+3000	-4367.97	82.877	2	1.82785
+4000	-4369.16	78.1955	1	1.09801
+5000	-4371.87	85.8643	3	9.52515
+6000	-4367.35	81.4949	1	0.185532
+7000	-4368.43	76.7162	1	1.64433
+8000	-4371.58	85.0359	3	5.3454
+9000	-4368.82	79.4229	1	4.33118
+10000	-4371.14	85.4072	2	0.91627
+11000	-4369.65	83.4734	1	1.05062
+12000	-4370.05	82.1874	1	0.526712
+13000	-4366.98	83.1413	1	0.757055
+14000	-4366.44	76.9176	1	2.32335
+15000	-4372.87	76.6513	1	0.609524
+16000	-4370.8	81.0094	1	1.5393
+17000	-4364.6	80.4143	2	1.92931
+18000	-4375.12	81.021	1	0.898431
+19000	-4362.53	84.2965	2	0.689411
+20000	-4365.39	83.0898	2	1.25168
+21000	-4367.93	82.2572	2	0.65283
+22000	-4368.23	75.8649	1	0.964253
+23000	-4376.27	80.2657	1	2.08089
+24000	-4368.72	82.1618	1	0.22946
+25000	-4370.09	76.6421	1	4.4319
+26000	-4367.22	80.8393	1	0.652186
+27000	-4369.67	82.7502	2	2.70616
+28000	-4369.72	77.8743	2	3.40487
+29000	-4368.86	78.3514	2	2.68712
+30000	-4367.54	79.4361	1	1.27312
+31000	-4369.1	84.2725	3	5.04919
+32000	-4362.83	81.282	2	8.33732
+33000	-4363.72	82.2447	1	0.822202
+34000	-4366.55	84.4127	1	0.17067
+35000	-4365.9	84.0264	1	0.394901
+36000	-4369.59	80.0991	1	1.62783
+37000	-4366.65	80.9676	1	0.409721
+38000	-4369.74	82.9712	1	0.193393
+39000	-4367.36	82.4431	1	0.94908
+40000	-4368.47	81.536	2	0.379935
+41000	-4369.8	82.6599	1	0.725097
+42000	-4365.12	77.261	1	6.00027
+43000	-4373.37	77.8215	1	5.44139
+44000	-4368.92	80.0609	1	1.40994
+45000	-4368.11	81.3626	1	1.3503
+46000	-4366.96	80.9403	1	0.956084
+47000	-4367.7	88.8721	3	2.53389
+48000	-4364.47	79.9879	1	1.7646
+49000	-4368.26	80.5639	1	3.48884
+50000	-4372.11	81.0729	1	0.566761
+51000	-4365.6	99.4375	5	5.29377
+52000	-4368.57	77.9824	1	1.19836
+53000	-4377	80.9346	1	0.496039
+54000	-4372.56	79.1704	1	0.957287
+55000	-4368.36	82.3017	1	2.66156
+56000	-4369.74	78.6488	1	0.0148432
+57000	-4369.63	81.3549	2	2.63335
+58000	-4363.6	85.972	2	1.01664
+59000	-4365.99	84.8789	2	2.3521
+60000	-4365.98	81.8023	1	3.66549
+61000	-4368.88	79.9669	1	0.354811
+62000	-4370.96	76.8949	1	1.84768
+63000	-4370.32	79.7617	2	1.26442
+64000	-4368.95	83.1299	1	1.57122
+65000	-4364.36	82.5638	1	0.717006
+66000	-4371.82	79.7625	1	1.89074
+67000	-4370.32	83.8119	3	8.34302
+68000	-4365.63	81.1203	2	4.48664
+69000	-4373.1	77.1312	1	0.360233
+70000	-4365.06	79.5152	1	2.032
+71000	-4368.25	79.5881	1	1.59679
+72000	-4366.37	81.9426	1	0.0536337
+73000	-4364.63	81.9653	1	1.08787
+74000	-4368.99	79.2417	1	2.73621
+75000	-4367.78	79.9522	2	6.49152
+76000	-4367.98	84.4591	2	1.14037
+77000	-4366.74	82.3742	1	0.472895
+78000	-4376.1	78.0788	1	1.69089
+79000	-4366.29	82.8227	1	2.25138
+80000	-4366.81	83.4618	1	0.951049
+81000	-4371.68	82.789	2	4.24103
+82000	-4371.1	83.4159	1	1.72198
+83000	-4371.7	78.2882	1	0.173784
+84000	-4369.75	82.0832	2	1.29346
+85000	-4369.03	79.2277	1	0.468331
+86000	-4368.04	80.0042	1	2.48196
+87000	-4366.88	76.8642	1	3.80484
+88000	-4367.85	78.6588	2	2.84148
+89000	-4370.35	77.5409	1	0.411286
+90000	-4364.77	83.2189	2	1.03662
+91000	-4370.24	80.8397	1	0.539833
+92000	-4369.49	81.4683	1	1.18763
+93000	-4362.48	85.0033	2	4.09722
+94000	-4367.6	76.8632	1	2.27253
+95000	-4367.49	84.0425	1	0.95002
+96000	-4370.65	80.1813	1	0.141772
+97000	-4365.67	83.3141	1	0.677567
+98000	-4367.45	81.182	1	1.32627
+99000	-4372.67	81.7003	1	0.583976
+100000	-4368.66	78.6078	1	0.101596
+
+Operator stats:
+name	number_accepted	number_rejected	weight	weight_prob	tuning_parameter
+DirichletProcessGibbsSampler	26530	0	10	0.263158	none	
+ConcentrationScaler	3911	4075	3	0.0789474	2.65714	
+TimeSizeRateMixer	10234	12328	6	0.157895	0.248076	
+TimeRootSizeMixer	10657	11819	6	0.157895	0.145048	
+EventTimeScaler	42673	44126	1	0.0263158	1.62119	
+RootPopulationSizeScaler0	15576	18591	1	0.0263158	0.473209	
+LeafPopulationSizeScaler0	18223	15872	1	0.0263158	2.32313	
+RootPopulationSizeScaler1	15810	18324	1	0.0263158	0.467714	
+LeafPopulationSizeScaler1	19564	14615	1	0.0263158	2.42158	
+RootPopulationSizeScaler2	16084	17989	1	0.0263158	0.461196	
+LeafPopulationSizeScaler2	19574	14579	1	0.0263158	2.29057	
+RootPopulationSizeScaler3	16329	17760	1	0.0263158	0.457832	
+LeafPopulationSizeScaler3	19213	14797	1	0.0263158	2.7013	
+RootPopulationSizeScaler4	15759	18366	1	0.0263158	0.466629	
+LeafPopulationSizeScaler4	20365	13828	1	0.0263158	1.96182	
+RootPopulationSizeScaler5	16296	17944	1	0.0263158	0.452317	
+LeafPopulationSizeScaler5	17879	16265	1	0.0263158	1.76027	
+
+Runtime: 270 seconds.

@@ -1,0 +1,35 @@
+global_comparison_settings:
+    ploidy: 1
+    genotypes_are_diploid: false
+
+comparisons:
+  - comparison:
+      path: "./output_data_species1.nex"
+      population_name_delimiter: " "
+      population_name_is_prefix: true
+      constant_sites_removed: false
+  - comparison:
+      path: "./output_data_species2.nex"
+      population_name_delimiter: " "
+      population_name_is_prefix: true
+      constant_sites_removed: false
+  - comparison:
+      path: "./output_data_species3.nex"
+      population_name_delimiter: " "
+      population_name_is_prefix: true
+      constant_sites_removed: false
+  - comparison:
+      path: "./output_data_species4.nex"
+      population_name_delimiter: " "
+      population_name_is_prefix: true
+      constant_sites_removed: false
+  - comparison:
+      path: "./output_data_species5.nex"
+      population_name_delimiter: " "
+      population_name_is_prefix: true
+      constant_sites_removed: false
+  - comparison:
+      path: "./output_data_species6.nex"
+      population_name_delimiter: " "
+      population_name_is_prefix: true
+      constant_sites_removed: false

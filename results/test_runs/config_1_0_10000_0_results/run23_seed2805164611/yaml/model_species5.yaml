@@ -1,0 +1,29 @@
+demes:
+- epochs:
+  - end_time: 10000
+    start_size: 10000
+  name: ancestral
+  start_time: Infinity
+- ancestors:
+  - ancestral
+  epochs:
+  - end_time: 0
+    start_size: 10000
+  name: pop1
+  start_time: 10000
+- ancestors:
+  - ancestral
+  epochs:
+  - end_time: 0
+    start_size: 10000
+  name: pop2
+  start_time: 10000
+description: Species 5 with two populations diverging 10000 generations ago
+migrations:
+- demes:
+  - pop1
+  - pop2
+  rate: 0.0
+  start_time: 10000
+  end_time: 0
+time_units: generations
